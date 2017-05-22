@@ -68,6 +68,10 @@ class AboutUs extends React.Component {
                             software like Aldus PageMaker including versions of Lorem Ipsum`;
         return (
             <div id="aboutus">
+                <Jumbotron>
+                    <h1>About Us</h1>
+                    <p>{dummyText}</p>
+                </Jumbotron>
                 <section id="profile">
                     <Jumbotron>
                         <h1>Profile Section</h1>
